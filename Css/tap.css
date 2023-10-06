@@ -1,0 +1,21 @@
+.mainContainer{
+    height: 80vh;
+    width: 80vw;
+    flex-direction: column;
+}
+.mainContainer .imageContainer{
+    height: 35vh;
+    width: 80vw;
+}
+.imageContainer img{
+    height:29vh;
+    width: 30vw;
+}
+.mainContainer .gamebox{
+    height: 45vh;
+    width: 80vw;
+}
+.unorderdList .letters{
+    height: 3vh;
+    width: 5vw;
+}

@@ -1,0 +1,21 @@
+.mainContainer{
+    height: 95vh;
+    width: 95vw;
+}
+.mainContainer .imageContainer{
+    height: 40vh;
+    width: 95vw;
+}
+.unorderdList .letters{
+    height: 3vh;
+    width: 8vw;
+}
+.imageContainer img{
+    height:30vh;
+    width: 45vw;
+    background-color: transparent;
+}
+.mainContainer .gamebox{
+    height: 55vh;
+    width: 95vw;
+}

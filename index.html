@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:963px)" href="./Css/tap.css">
+    <link rel="stylesheet" media="screen and (max-width:455px)" href="./Css/phone.css">
+    <script src="./Js/script.js" defer></script>
+    <title>HangMan</title>
+</head>
+<body>
+    <div class="gamefail">
+        <img src="./images/sad.gif" alt="GameOver!" class="sademoji">
+        <h1 class="gameover">Game Over!</h1>
+        <p>Correct word was : <b>RAINBOW</b></p>
+        <button class="playagain">Try again</button>
+    </div>
+    <div class="gamewin">
+        <img src="./images/thumbsup.gif" alt="" class="happyemoji">
+        <h1 class="winn">Congratulations</h1>
+        <b>Yahhuu! you win the game</b>
+        <button>Play again</button>
+    </div>
+    <!--Main Continer-->
+    <div class="mainContainer">
+        <!--image container-->
+        <div class="imageContainer">
+            <img src="./images/hanggame.png" alt="HangMan.img">
+            <h1>hangman game</h1>
+        </div>
+        <!--Game box Caontainer-->
+        <div class="gamebox">
+            <ul class="unorderdList"></ul>
+            <!--Hints-->
+            <div class="hint">
+               <h4>Hint:</h4> 
+                <b class="hints">Lorem ipsum dolor sit amet consectetur adipisicing </b>
+            </div>
+            <!--Incorrect Password-->
+            <div class="incorrectgusses">
+                <h4>Incorrect gusses:</h4>
+                <b id="guesses">0/6</b>
+            </div>
+            <!--Buttons-->
+            <div class="buttons">
+                <!--Buttons are created in JS script.js file-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
